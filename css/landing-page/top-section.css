@@ -1,0 +1,11 @@
+#top-section{
+    height: 100vh;
+}
+
+#top-section .img-div{
+    width: 690px;
+    height: 790px;
+    background-image: url('/images/adult-1868750_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
