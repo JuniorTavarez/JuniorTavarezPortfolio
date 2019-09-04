@@ -1,6 +1,64 @@
 #top-section{
     height: 100vh;
+    margin: 100px 0 0;
+    display: flex;
+    
 }
+
+
+
+#top-section .left-side{
+    width: 50%;
+    margin: 220px 0 0;
+   
+}
+
+#top-section .left-side h1{
+    margin: 0 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; 
+    font-size: 40px;
+}
+
+#top-section .left-side h2{
+    max-width: 460px;;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 24px;
+    line-height: 45px;
+   
+}
+#top-section .left-side a{
+    text-decoration: none;
+}
+
+#top-section .left-side a p{
+    margin: 20px 0 0;
+    padding: 10px 0 0;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border: black 2px solid;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+    font-size: 16px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #top-section .img-div{
     width: 690px;

@@ -1,0 +1,14 @@
+#header-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;  
+}
+#header-section div{
+margin: 0 75px;
+}
+#header-section div a{
+    text-decoration: none;
+    color: black;
+    }
