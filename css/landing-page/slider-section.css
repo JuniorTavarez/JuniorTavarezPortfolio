@@ -1,0 +1,39 @@
+#slider-section{
+    margin: 150px 0 140px;
+}
+#slider-section h1{
+    margin: 0 0 20px 375px;
+    font-size: 50px;
+}
+#slider-section .slider-mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 115px
+}
+#slider-section .slider-mid .left{
+    margin: 0 180px 0 0;
+    font-size: 36px;
+}
+
+#slider-section .slider-mid h2{
+    font-size: 24px;
+    max-width: 650px;
+}
+
+#slider-section .slider-mid .right{
+      margin: 0 0 0 180px;
+      font-size: 36px;
+}
+
+#slider-section .icons{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#slider-section .icons p{
+    margin: 0 5px;
+    font-size: 24px;
+}

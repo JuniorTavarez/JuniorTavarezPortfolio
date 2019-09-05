@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700');
 @import "cssreset.css";
+@import "landing-page/top-section.css";
 @import "landing-page/projects.css";
+@import "landing-page/slider-section.css";
 
 
 @import "templates/page.css";
@@ -11,11 +13,18 @@
 @import "landing-page/blog-section.css";
 @import "landing-page/testimonials-section.css";
 @import "portfolio/portfolio-projects.css";
-@import "landing-page/top-section.css";
-@import "landing-page/services-section.css";
+
+
 
 
 #container {
     max-width: 1400px;
     margin: 0 auto;
+}
+
+.line{ 
+    width:35vw;
+    height:1px; 
+    background: black;
+    margin: 0 auto ;
 }

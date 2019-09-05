@@ -7,61 +7,79 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 700; 
     font-size: 40px;
-    margin: 0 0 50px 
+    margin: 0 0 100px 
 }
-#projects-section .projects-container1{
+#projects-section .projects-container{
  max-width: 1400px;
  max-height: 300px;
  display: flex;
-
+margin: 20px 0px;
 }
-#projects-section .left-side1{
- background: blue;
+/* Section 1 */
+#projects-section .image-side{
  width: 700px;
  height: 300px;
 }
-#projects-section .right-side1{
-    background: red;
-    width: 700px;
+/* info Side */
+#projects-section .info-side{
+     width: 700px;
     height: 300px; 
-    padding: 60px 40px;   
+    padding: 50px 40px;   
    }
-   #projects-section .right-side1 .project-info{
+   #projects-section .info-side .project-info{
     display:flex;
     justify-content: space-between;
   }
-   #projects-section .right-side1 h3{
-     /* margin: 20px 40px 10px; */
+   #projects-section .info-side .project-info h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; 
+    font-size: 24px;
    }
-   #projects-section .right-side1 .project-language{
+   #projects-section .info-side .project-info .project-language{
     display: flex;
+    
 
    }
-   #projects-section .right-side1 .project-language p{
+   #projects-section .info-side .project-language p{
     margin: 0 10px;
     border: black solid 1px;
     padding: 10px;
-   
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+    font-size: 12px;
    }
 
-  #projects-section .right-side1 h4{
-    margin: 20px 40px 10px;
+  #projects-section .info-side h4{
+    margin: 0px 0px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 18px;
+    
   }
-
-#projects-section .right-side2{
-    background: blue;
-    width: 700px;
-    height: 300px;
-   }
-   #projects-section .left-side3{
-    background: blue;
-    width: 700px;
-    height: 300px;
-   }
-
-
-
-
-#projects-section .right-side1 .right-side3 .left-side2{
- 
-}
+  #projects-section .info-side .main-paragraph{
+    margin: 10px 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+    font-size: 14px;
+    line-height: 25px
+  }
+  #projects-section .info-side .bottom{
+    display: flex;
+    justify-content: space-between;
+  }
+  #projects-section .info-side .bottom .icons{
+    display: flex;
+    align-items: center;
+  }
+  #projects-section .info-side .bottom .icons p{
+    margin: 0 20px 0 0;
+  }
+  #projects-section .info-side .bottom .contact{
+    border: black 2px solid;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+    font-size: 16px;
+  }
