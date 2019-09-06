@@ -1,0 +1,39 @@
+#skills-section{
+    margin: 100px 200px 100px;
+}
+
+#skills-section h1{
+font-size: 52px;
+text-align: center;
+}
+#skills-section h2{
+margin: 0 auto;
+text-align: center;
+font-size: 24px;
+width: 670px;
+line-height: 50px;
+}
+#skills-section .top {
+    display:flex;
+    justify-content: space-between;
+    
+    }
+
+
+#skills-section .top .skills{
+border: blue 1px solid;
+width: 33%;
+height: 200px;
+margin: 0 0 20px;
+
+}
+
+#skills-section .top .skills h3{
+font-size: 40px;
+}
+
+#skills-section .top .skills p{
+margin: 30px 0 0;
+font-size: 14px;
+text-align: justify;
+}
