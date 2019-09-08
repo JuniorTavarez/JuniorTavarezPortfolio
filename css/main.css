@@ -19,7 +19,7 @@ body  {
 }
 
 #container {
-    max-width: 1525px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -89,19 +89,20 @@ body  {
       border-spacing: 0;
   }
 
-  
+  /* ************************START HERE************************************ */
+
+
   /*  HEader SECTION*/
 
   #header-section{
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    margin: 20px auto 0px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;  
 }
 #header-section div{
-margin: 20px 243px 0 45px;
-font-size: 24px
+font-size: 14px
 }
 #header-section div a{
     text-decoration: none;
@@ -112,64 +113,57 @@ font-size: 24px
 /* TOP SECTION */
 #top-section{
     height: 100vh;
-    margin: 92px 0 0;
+    margin: 100px 0 200px;
     display: flex;
 }
 #top-section .left-side{
     width: 50%;
     padding: 208px 0 0;
-   margin: 0 0 0 141px;
 }
 
 #top-section .left-side h1{
     margin: 10px 0 10px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700; 
-    font-size: 2.0vw;
+    font-size: 50px;
 }
 
 #top-section .left-side h2{
     max-width: 460px;;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300; 
-    font-size: 1.22vw;
-    line-height: 50px;
+    font-size: 24px;
+    line-height: 2em;
    
 }
 #top-section .left-side a{
     text-decoration: none;
+    /* border: black 2px solid; */
 }
 
-#top-section .left-side a p{
-    margin: 24px 0 0;
-    padding: 10px 0;
-    width: 120px;
-    height: 40px;
+#top-section .left-side div p{
+    margin: 12px 0 0;
+    padding: 10px;
     text-align: center;
     border: black 2px solid;
-    text-decoration: none;
     color: black;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400; 
-    font-size: .7vw;
+    font-size: 12px;
     text-transform: uppercase;
-    
-}
-
-
-#top-section .right-side{
-    width: 690px;
-    height: 790px;
+    display: inline-block;
 }
 
 
 #top-section .img-div{
-    width: 670px;
-    height: 700px;
+    width: 70%;
+    height: auto;
+    max-width: 690;
+    max-height: 700;
     background-image: url('https://www.JuniorTavarez.com/wp-content/uploads/2019/09/main-dude.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: center;
     
 }
 
@@ -180,7 +174,7 @@ font-size: 24px
 /* PROJECTS */
 
 #projects-section{
-    margin: 75px 0 96px ; 
+    margin: 0px 0 200px ; 
     }
     #projects-section h1{
         display:flex;
@@ -188,19 +182,17 @@ font-size: 24px
         font-family: 'Open Sans', sans-serif;
         font-weight: 700; 
         font-size: 40px;
-        margin: 0 0 102px 
+        margin: 0 0 100px 
     }
     #projects-section .projects-container{
      max-width: 1400px;
      height: 332px;
      display: flex;
-    margin: 20px 0px 0px 70px;
+    margin: 20px 0px 0px 0px;
     }
     /* Section 1 */
     #projects-section .image-side{
-     width: 700px;
-    background: black;
-    /* margin: 0px auto 0; */
+    width: 700px;  
     background-image: url('https://www.JuniorTavarez.com/wp-content/uploads/2019/09/fake-web.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -208,7 +200,7 @@ font-size: 24px
     }
     /* info Side */
     #projects-section .info-side{
-         width: 700px; 
+        width: 700px; 
         padding: 58px 40px 0px 60px ;   
        }
        #projects-section .info-side .project-info h3{
@@ -221,19 +213,15 @@ font-size: 24px
         margin: 10px 0 0 423px;
         position: absolute; 
         padding: 0 0 10px 0;
-        
-        
-    
        }
        #projects-section .info-side .project-language p{
         margin: 0px 0 0 8px;
         border: black solid .5px;
-        padding: 8px 8px;
+        padding: 8px;
         border-radius: 3px;
         font-family: 'Open Sans', sans-serif;
         font-weight: 400; 
         font-size: 10px;
-        
        }
     
       #projects-section .info-side h4{
@@ -242,9 +230,6 @@ font-size: 24px
         font-family: 'Open Sans', sans-serif;
         font-weight: 300; 
         font-size: 18px;
-      
-    
-        
       }
       #projects-section .info-side .main-paragraph{
         margin: 10px 0 20px;
@@ -280,40 +265,42 @@ font-size: 24px
 
 /* SLIDER SECTION */
 #slider-section{
-    margin: 142px 0 142px;
+    margin: 100px 0 100px;
 }
 #slider-section h1{
-    margin: 0 0 0px 470px;
-    font-size: 50px;
+    text-align: left;
+    font-size: 24px;
+    width: 600px;
+    font-weight: 700;
+    margin: 0 auto;
 }
 #slider-section .slider-mid{
     display: flex;
     justify-content: space-around;
-    margin: 12px auto 20px;
+    margin: 12px auto 0;
     width: 1025px
 }
 #slider-section .slider-mid .left{
-    margin: 0 180px 0 0;
     font-size: 36px;
 }
 
 #slider-section .slider-mid h2{
-    font-size: 22.5px;
+    text-align: left;
+    font-size: 14px;
     font-weight: 300px;
-    max-width: 650px;
-    line-height: 50px;
-    margin: 0 0 0 18px;
+    width: 600px;
+    line-height: 30px;
+    
 }
 
 #slider-section .slider-mid .right{
-      margin: 0 0 0 180px;
       font-size: 36px;
 }
 
 #slider-section .icons{
     display: flex;
     justify-content: center;
-    margin: 107px 0 0 36px;
+    margin: 50px 0 0 0px;
 }
 
 
@@ -331,7 +318,7 @@ font-size: 24px
 
 /* SKILLS SECTION */
 #skills-section{
-    margin: 185px 0 100px;
+    margin: 200px 0 0px;
 }
 
 #skills-section h1{
@@ -339,17 +326,16 @@ font-size: 52px;
 text-align: center;
 }
 #skills-section h2{
-margin: 8px auto 90px;
+margin: 0px auto 100px;
 text-align: center;
 font-size: 24px;
 width: 670px;
-line-height: 50px;
+line-height: 35px;
 }
 #skills-section .top {
     display:flex;
     justify-content: space-between;
-    margin: 0 auto 70px;
-    
+    margin: 0 auto 70px; 
     width: 1250px;
 }
 #skills-section .top .skills{
@@ -369,12 +355,35 @@ font-weight: 300;
 text-align: justify;
 line-height: 24px
 }
+#skills-section .top2 {
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+    width: 1250px;
+}
+#skills-section .top2 .skills{
+margin: 0 0px;
+width: 350px;
+}
+
+#skills-section .top2 .skills h3{
+font-size: 40px;
+line-height: 50px;
+}
+
+#skills-section .top2 .skills p{
+margin: 17px 0 0;
+font-size: 14px;
+font-weight: 300;
+text-align: justify;
+line-height: 24px
+}
 
 
 /* TESTIMONIAL */
 
 #testimonials{
-    margin: 225px 0 0px;
+    margin: 200px auto 0px;
 }
 
 #testimonials h1{
@@ -387,7 +396,7 @@ line-height: 24px
     text-align: center;
     font-weight: 300;
     font-size: 24px;
-    line-height: 50px;
+    line-height: 35px;
     width: 650px;
     margin: 10px auto 0px ;
 }
@@ -419,8 +428,9 @@ width: 1250px
 }
 
 #testimonials .customer-info{
-margin: 43px 0 0 540px;
+margin: 43px 0 0 ;
 display: flex;
+justify-content: center;
 }
 
 #testimonials .customer-info .img{
@@ -445,7 +455,7 @@ margin: 0 0 13px;
 #testimonials .icons{
     display: flex;
     justify-content: center;
-    margin: 35px 0 0 36px;
+    margin: 35px 0 0 0;
 }
 
 #testimonials .icons p{
@@ -460,7 +470,7 @@ margin: 0 0 13px;
 
 /* WORK WITH*/
 #work-with{
-    margin: 150px 0 0 0;
+    margin: 200px 0 0;
 }
 
 #work-with h1{
@@ -470,7 +480,7 @@ margin: 0 0 13px;
 }
 
 #work-with .container {
-    margin: 115px 0 0; 
+    margin: 100px auto 0; 
 }
 #work-with .img{
     display: flex;
@@ -487,7 +497,7 @@ margin: 0 0 13px;
 }
 
 #work-with .h2 {
-    margin: 68px 0 0 0;
+    margin: 50px 0;
     font-size: 40px;
     display: flex;
     justify-content: space-between;
@@ -507,8 +517,7 @@ margin: 0 0 13px;
 #work-with .content p{
     font-size: 14px;
     font-weight: 300;
-    margin: 48px auto 0;
-    padding: 0 0 0 10px;
+    margin: 0 auto;
     width: 350px;
     text-align: justify;
     line-height: 24px;
@@ -516,7 +525,7 @@ margin: 0 0 13px;
 
 /* COMPANIES WORKED WITH */
 #companies-worked-with{
-    margin: 170px 0 0;
+    margin: 100px auto 0;
 }
 
 #companies-worked-with h1{
@@ -545,16 +554,20 @@ margin: 0 0 13px;
 /* FOOTER */
 
 #footer-section{
-    margin: 80px auto 0;
+    margin: 80px auto 10px;
     display: flex;
     justify-content: space-between;
     padding: 0 30px;
 }
 
 #footer-section .logo{
-    font-size: 24px;
-
+    font-size: 14px;
 }
+#footer-section .logo a{
+    text-decoration: none;
+    color: black;
+}
+
 
 #footer-section .icons{
 display: flex;
@@ -579,6 +592,6 @@ justify-content: space-between;
     
 }
 #footer-section .arrow a p{
-    font-size: 24px;
+    font-size: 18px;
 
 }
