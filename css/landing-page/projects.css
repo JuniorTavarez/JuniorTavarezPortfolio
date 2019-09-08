@@ -1,5 +1,5 @@
 #projects-section{
-
+margin: 25px 0 96px ; 
 }
 #projects-section h1{
     display:flex;
@@ -7,77 +7,84 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 700; 
     font-size: 40px;
-    margin: 0 0 100px 
+    margin: 0 0 102px 
 }
 #projects-section .projects-container{
  max-width: 1400px;
- max-height: 300px;
+ height: 332px;
  display: flex;
-margin: 20px 0px;
+margin: 20px 0px 0px 70px;
 }
 /* Section 1 */
 #projects-section .image-side{
  width: 700px;
- height: 300px;
 }
 /* info Side */
 #projects-section .info-side{
-     width: 700px;
-    height: 300px; 
-    padding: 50px 40px;   
+     width: 700px; 
+    padding: 58px 40px 0px 60px ;   
    }
-   #projects-section .info-side .project-info{
-    display:flex;
-    justify-content: space-between;
-  }
    #projects-section .info-side .project-info h3{
     font-family: 'Open Sans', sans-serif;
     font-weight: 700; 
     font-size: 24px;
    }
-   #projects-section .info-side .project-info .project-language{
+   #projects-section .info-side  .project-language{
     display: flex;
+    margin: 10px 0 0 423px;
+    position: absolute; 
+    padding: 0 0 10px 0;
+    
     
 
    }
    #projects-section .info-side .project-language p{
-    margin: 0 10px;
-    border: black solid 1px;
-    padding: 10px;
+    margin: 0px 0 0 8px;
+    border: black solid .5px;
+    padding: 8px 8px;
     border-radius: 3px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400; 
-    font-size: 12px;
+    font-size: 10px;
+    
    }
 
   #projects-section .info-side h4{
-    margin: 0px 0px 20px;
+    padding: 0 0 0px;
+    margin: 4px 0px 35px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300; 
     font-size: 18px;
+  
+
     
   }
   #projects-section .info-side .main-paragraph{
     margin: 10px 0 20px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400; 
+    font-weight: 300; 
     font-size: 14px;
-    line-height: 25px
+    line-height: 24px;
+    width: 590px;
   }
   #projects-section .info-side .bottom{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
+    margin-top: 37px;
   }
   #projects-section .info-side .bottom .icons{
     display: flex;
     align-items: center;
+    
   }
   #projects-section .info-side .bottom .icons p{
-    margin: 0 20px 0 0;
+    margin: 0 30px 0 0;
+    font-size: 16px;
   }
   #projects-section .info-side .bottom .contact{
     border: black 2px solid;
-    padding: 10px 20px;
+    margin: 0 10px 0 0;
+    padding: 10px 30px;
     border-radius: 3px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400; 

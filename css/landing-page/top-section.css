@@ -1,32 +1,31 @@
 #top-section{
     height: 100vh;
-    margin: 100px 0 0;
+    margin: 92px 0 0;
     display: flex;
-    
+    /* border: solid 2px black; */
 }
 
 
 
 #top-section .left-side{
     width: 50%;
-    /* margin: 220px 0 0; */
-    padding: 220px 0 0;
-   
+    padding: 208px 0 0;
+   margin: 0 0 0 141px;
 }
 
 #top-section .left-side h1{
-    margin: 0 0 20px;
+    margin: 10px 0 10px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700; 
-    font-size: 4vw;
+    font-size: 2.0vw;
 }
 
 #top-section .left-side h2{
     max-width: 460px;;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300; 
-    font-size: 1.3vw;
-    line-height: 45px;
+    font-size: 1.22vw;
+    line-height: 50px;
    
 }
 #top-section .left-side a{
@@ -34,9 +33,9 @@
 }
 
 #top-section .left-side a p{
-    margin: 20px 0 0;
+    margin: 24px 0 0;
     padding: 10px 0 0;
-    width: 160px;
+    width: 120px;
     height: 40px;
     text-align: center;
     border: black 2px solid;
@@ -44,24 +43,20 @@
     color: black;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400; 
-    font-size: .8vw;
+    font-size: .7vw;
+    text-transform: uppercase;
     
 }
 
 
-
-
-
-
-
-
-
-
-
-
+#top-section .right-side{
+   /* border: blue 2px solid; */
+   margin: 3px  0 140px;
+}
 
 
 #top-section .img-div{
+    margin: 0 0 120px;
     width: 690px;
     height: 790px;
     background-image: url('/images/adult-1868750_1920.jpg');

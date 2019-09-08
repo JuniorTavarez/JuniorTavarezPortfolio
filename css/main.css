@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
-@import "cssreset.css";
-@import "header-section.css";
-@import "landing-page/top-section.css";
-@import "landing-page/projects.css";
-@import "landing-page/slider-section.css";
-@import "landing-page/skills-section.css";
+@import "/css/cssreset.css";
+@import "/css/header-section.css";
+@import "/css/landing-page/top-section.css";
+@import "/css/landing-page/projects.css";
+@import "/css/landing-page/slider-section.css";
+@import "/css/landing-page/skills-section.css";
 
 @import "footer-section.css";
 
@@ -25,12 +25,12 @@ body  {
 }
 
 #container {
-    max-width: 1400px;
+    max-width: 1525px;
     margin: 0 auto;
 }
 
 .line{ 
-    width:35vw;
+    width:36vw;
     height:1px; 
     background: black;
     margin: 0 auto ;

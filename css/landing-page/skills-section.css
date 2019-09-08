@@ -1,5 +1,5 @@
 #skills-section{
-    margin: 100px 200px 100px;
+    margin: 185px 0 100px;
 }
 
 #skills-section h1{
@@ -7,7 +7,7 @@ font-size: 52px;
 text-align: center;
 }
 #skills-section h2{
-margin: 0 auto;
+margin: 8px auto 90px;
 text-align: center;
 font-size: 24px;
 width: 670px;
@@ -16,24 +16,24 @@ line-height: 50px;
 #skills-section .top {
     display:flex;
     justify-content: space-between;
+    margin: 0 auto 70px;
     
-    }
-
-
+    width: 1250px;
+}
 #skills-section .top .skills{
-border: blue 1px solid;
-width: 33%;
-height: 200px;
-margin: 0 0 20px;
-
+margin: 0 0px;
+width: 350px;
 }
 
 #skills-section .top .skills h3{
 font-size: 40px;
+line-height: 50px;
 }
 
 #skills-section .top .skills p{
-margin: 30px 0 0;
+margin: 17px 0 0;
 font-size: 14px;
+font-weight: 300;
 text-align: justify;
+line-height: 24px
 }
