@@ -1,0 +1,38 @@
+#footer-section{
+    margin: 80px auto 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#footer-section .logo{
+    font-size: 24px;
+
+}
+
+#footer-section .icons{
+display: flex;
+justify-content: space-between;
+}
+
+#footer-section .icons a{
+   margin: 0 40px 0 0;
+   color: black;
+    }
+
+#footer-section .icons a p{
+    font-size: 20px;
+        }
+
+#footer-section .arrow {
+
+
+}
+#footer-section .arrow a{
+    text-decoration: none;
+    
+}
+#footer-section .arrow a p{
+    font-size: 24px;
+
+}

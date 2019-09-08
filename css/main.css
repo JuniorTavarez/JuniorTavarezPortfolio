@@ -1,20 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
 @import "/css/cssreset.css";
 @import "/css/header-section.css";
 @import "/css/landing-page/top-section.css";
 @import "/css/landing-page/projects.css";
 @import "/css/landing-page/slider-section.css";
 @import "/css/landing-page/skills-section.css";
-
-@import "footer-section.css";
-
-
-@import "templates/page.css";
-
-@import "landing-page/experience-section.css";
-@import "landing-page/blog-section.css";
-@import "landing-page/testimonials-section.css";
-@import "portfolio/portfolio-projects.css";
+@import "/css/landing-page/testimonial.css";
+@import "/css/landing-page/work-with.css";
+@import "/css/landing-page/companies-worked-with.css";
+@import "footer-section.css"; */
 
 
 
@@ -34,4 +28,552 @@ body  {
     height:1px; 
     background: black;
     margin: 0 auto ;
+}
+
+
+/* for git hub */
+
+/* css reset */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+*{
+    box-sizing: border-box;
+  }
+  
+  
+  
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    font-family: 'Open Sans', sans-serif;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+      display: block;
+  }
+  body {
+      line-height: 1;
+  }
+  ol, ul {
+      list-style: none;
+  }
+  blockquote, q {
+      quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+      content: '';
+      content: none;
+  }
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+
+  
+  /*  HEader SECTION*/
+
+  #header-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;  
+}
+#header-section div{
+margin: 20px 243px 0 45px;
+font-size: 24px
+}
+#header-section div a{
+    text-decoration: none;
+    color: black;
+    }
+
+
+/* TOP SECTION */
+#top-section{
+    height: 100vh;
+    margin: 92px 0 0;
+    display: flex;
+    /* border: solid 2px black; */
+}
+#top-section .left-side{
+    width: 50%;
+    padding: 208px 0 0;
+   margin: 0 0 0 141px;
+}
+
+#top-section .left-side h1{
+    margin: 10px 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; 
+    font-size: 2.0vw;
+}
+
+#top-section .left-side h2{
+    max-width: 460px;;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 1.22vw;
+    line-height: 50px;
+   
+}
+#top-section .left-side a{
+    text-decoration: none;
+}
+
+#top-section .left-side a p{
+    margin: 24px 0 0;
+    padding: 10px 0;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border: black 2px solid;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+    font-size: .7vw;
+    text-transform: uppercase;
+    
+}
+
+
+#top-section .right-side{
+    width: 690px;
+    height: 790px;
+}
+
+
+#top-section .img-div{
+    width: 690px;
+    height: 790px;
+    background-image: url('/images/adult-1868750_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+
+
+/* PROJECTS */
+
+#projects-section{
+    margin: 75px 0 96px ; 
+    }
+    #projects-section h1{
+        display:flex;
+        justify-content: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700; 
+        font-size: 40px;
+        margin: 0 0 102px 
+    }
+    #projects-section .projects-container{
+     max-width: 1400px;
+     height: 332px;
+     display: flex;
+    margin: 20px 0px 0px 70px;
+    }
+    /* Section 1 */
+    #projects-section .image-side{
+     width: 700px;
+    }
+    /* info Side */
+    #projects-section .info-side{
+         width: 700px; 
+        padding: 58px 40px 0px 60px ;   
+       }
+       #projects-section .info-side .project-info h3{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700; 
+        font-size: 24px;
+       }
+       #projects-section .info-side  .project-language{
+        display: flex;
+        margin: 10px 0 0 423px;
+        position: absolute; 
+        padding: 0 0 10px 0;
+        
+        
+    
+       }
+       #projects-section .info-side .project-language p{
+        margin: 0px 0 0 8px;
+        border: black solid .5px;
+        padding: 8px 8px;
+        border-radius: 3px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400; 
+        font-size: 10px;
+        
+       }
+    
+      #projects-section .info-side h4{
+        padding: 0 0 0px;
+        margin: 4px 0px 35px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300; 
+        font-size: 18px;
+      
+    
+        
+      }
+      #projects-section .info-side .main-paragraph{
+        margin: 10px 0 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300; 
+        font-size: 14px;
+        line-height: 24px;
+        width: 590px;
+      }
+      #projects-section .info-side .bottom{
+        display: flex;
+        justify-content: space-between;    
+        margin-top: 37px;
+      }
+      #projects-section .info-side .bottom .icons{
+        display: flex;
+        align-items: center;
+        
+      }
+      #projects-section .info-side .bottom .icons p{
+        margin: 0 30px 0 0;
+        font-size: 16px;
+      }
+      #projects-section .info-side .bottom .contact{
+        border: black 2px solid;
+        margin: 0 10px 0 0;
+        padding: 10px 30px;
+        border-radius: 3px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400; 
+        font-size: 16px;
+      }
+
+/* SLIDER SECTION */
+#slider-section{
+    margin: 142px 0 142px;
+}
+#slider-section h1{
+    margin: 0 0 0px 470px;
+    font-size: 50px;
+}
+#slider-section .slider-mid{
+    display: flex;
+    justify-content: space-around;
+    margin: 12px auto 20px;
+    width: 1025px
+}
+#slider-section .slider-mid .left{
+    margin: 0 180px 0 0;
+    font-size: 36px;
+}
+
+#slider-section .slider-mid h2{
+    font-size: 22.5px;
+    font-weight: 300px;
+    max-width: 650px;
+    line-height: 50px;
+    margin: 0 0 0 18px;
+}
+
+#slider-section .slider-mid .right{
+      margin: 0 0 0 180px;
+      font-size: 36px;
+}
+
+#slider-section .icons{
+    display: flex;
+    justify-content: center;
+    margin: 107px 0 0 36px;
+}
+
+
+#slider-section .icons p{
+    margin: 0 18px 0 0;
+    border: 2px black solid;
+    border-radius: 17%;
+    height: 20px;
+    width: 20px;
+    transform: rotate(45deg)
+}
+
+
+
+
+/* SKILLS SECTION */
+#skills-section{
+    margin: 185px 0 100px;
+}
+
+#skills-section h1{
+font-size: 52px;
+text-align: center;
+}
+#skills-section h2{
+margin: 8px auto 90px;
+text-align: center;
+font-size: 24px;
+width: 670px;
+line-height: 50px;
+}
+#skills-section .top {
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto 70px;
+    
+    width: 1250px;
+}
+#skills-section .top .skills{
+margin: 0 0px;
+width: 350px;
+}
+
+#skills-section .top .skills h3{
+font-size: 40px;
+line-height: 50px;
+}
+
+#skills-section .top .skills p{
+margin: 17px 0 0;
+font-size: 14px;
+font-weight: 300;
+text-align: justify;
+line-height: 24px
+}
+
+
+/* TESTIMONIAL */
+
+#testimonials{
+    margin: 225px 0 0px;
+}
+
+#testimonials h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+#testimonials h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 50px;
+    width: 650px;
+    margin: 10px auto 0px ;
+}
+
+#testimonials .slider-mid {
+margin: 35px auto 0;
+    display: flex;
+justify-content: space-between;
+width: 1250px
+}
+
+#testimonials .slider-mid .paragraph{
+    width: 975px;
+    text-align: center;
+    margin: 0 0 0 0px;
+    line-height: 24px;
+    font-size: 13.5px;
+    font-weight: 300px;
+}
+
+#testimonials .slider-mid .left{
+    margin: 40px 0 0 0px;
+    font-size: 32px
+}
+
+#testimonials .slider-mid .right{
+    margin: 40px 0 0 0;
+    font-size: 32px;
+}
+
+#testimonials .customer-info{
+margin: 43px 0 0 540px;
+display: flex;
+}
+
+#testimonials .customer-info .img{
+margin: 0 10px 0 0;
+border-radius: 50%;
+padding: 50px;
+background-image: url('/images/jack-finnigan-rriAI0nhcbc-unsplash.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+
+#testimonials .customer-info .content{
+margin: 30px 0 0;
+} 
+
+#testimonials .customer-info .paragraph{
+margin: 0 0 13px;
+}
+
+#testimonials .icons{
+    display: flex;
+    justify-content: center;
+    margin: 35px 0 0 36px;
+}
+
+#testimonials .icons p{
+    margin: 0 18px 0 0;
+    border: 2px black solid;
+    border-radius: 17%;
+    height: 20px;
+    width: 20px;
+    transform: rotate(45deg)
+}
+
+
+/* WORK WITH*/
+#work-with{
+    margin: 150px 0 0 0;
+}
+
+#work-with h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+#work-with .container {
+    margin: 115px 0 0; 
+}
+#work-with .img{
+    display: flex;
+    justify-content: space-between;
+}
+#work-with .img div{
+    background: black;
+    padding: 108px 185px;
+    margin: 0px auto 0;
+    background-image: url('/images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#work-with .h2 {
+    margin: 68px 0 0 0;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#work-with .h2 h2{
+    margin: 0 auto;
+    
+}
+
+#work-with .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#work-with .content p{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 48px auto 0;
+    padding: 0 0 0 10px;
+    width: 350px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+/* COMPANIES WORKED WITH */
+#companies-worked-with{
+    margin: 170px 0 0;
+}
+
+#companies-worked-with h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+#companies-worked-with .img{
+    display: flex;
+    justify-content: space-evenly;
+    width: 870px;
+    margin: 75px auto 0;
+
+}
+
+#companies-worked-with .img a p{
+    border-radius: 50%;
+    padding: 50px;
+    background-image: url('/images/frank-busch-g7uPG8w1XV8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    }
+
+/* FOOTER */
+
+#footer-section{
+    margin: 80px auto 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#footer-section .logo{
+    font-size: 24px;
+
+}
+
+#footer-section .icons{
+display: flex;
+justify-content: space-between;
+}
+
+#footer-section .icons a{
+   margin: 0 40px 0 0;
+   color: black;
+    }
+
+#footer-section .icons a p{
+    font-size: 20px;
+        }
+
+#footer-section .arrow {
+
+
+}
+#footer-section .arrow a{
+    text-decoration: none;
+    
+}
+#footer-section .arrow a p{
+    font-size: 24px;
+
 }

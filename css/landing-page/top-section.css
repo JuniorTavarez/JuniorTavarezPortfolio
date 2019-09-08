@@ -4,9 +4,6 @@
     display: flex;
     /* border: solid 2px black; */
 }
-
-
-
 #top-section .left-side{
     width: 50%;
     padding: 208px 0 0;
@@ -34,7 +31,7 @@
 
 #top-section .left-side a p{
     margin: 24px 0 0;
-    padding: 10px 0 0;
+    padding: 10px 0;
     width: 120px;
     height: 40px;
     text-align: center;
@@ -50,16 +47,17 @@
 
 
 #top-section .right-side{
-   /* border: blue 2px solid; */
-   margin: 3px  0 140px;
+    width: 690px;
+    height: 790px;
 }
 
 
 #top-section .img-div{
-    margin: 0 0 120px;
     width: 690px;
     height: 790px;
     background-image: url('/images/adult-1868750_1920.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    
 }

@@ -1,0 +1,26 @@
+#companies-worked-with{
+    margin: 170px 0 0;
+}
+
+#companies-worked-with h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+#companies-worked-with .img{
+    display: flex;
+    justify-content: space-evenly;
+    width: 870px;
+    margin: 75px auto 0;
+
+}
+
+#companies-worked-with .img a p{
+    border-radius: 50%;
+    padding: 50px;
+    background-image: url('/images/frank-busch-g7uPG8w1XV8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    }

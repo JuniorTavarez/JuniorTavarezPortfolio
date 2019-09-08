@@ -1,0 +1,54 @@
+#work-with{
+    margin: 150px 0 0 0;
+}
+
+#work-with h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+#work-with .container {
+    margin: 115px 0 0; 
+}
+#work-with .img{
+    display: flex;
+    justify-content: space-between;
+}
+#work-with .img div{
+    background: black;
+    padding: 108px 185px;
+    margin: 0px auto 0;
+    background-image: url('/images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#work-with .h2 {
+    margin: 68px 0 0 0;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#work-with .h2 h2{
+    margin: 0 auto;
+    
+}
+
+#work-with .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#work-with .content p{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 48px auto 0;
+    padding: 0 0 0 10px;
+    width: 350px;
+    text-align: justify;
+    line-height: 24px;
+}
